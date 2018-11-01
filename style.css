@@ -44,6 +44,27 @@ article {
 article > div {
     float: left;
     margin: 20px;
+    padding-bottom: 10px;
+    float: left;
+    margin: 20px;
+    width: 250px;
+    height: 200px;
+}
+article > div > div {
+    background: #4aaaa5;
+    color: #ffffff;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 20px;
+    text-align: center;
+    line-height: 50px;
+    width: 250px;
+    bottom: 5px;
+    display: inline-block;
+    margin-bottom: 20;
+    height: 50px;
+    position: relative;
+    left: 0;
+    bottom: 60px;
 }
 nav {
     float: right;
